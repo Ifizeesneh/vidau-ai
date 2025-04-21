@@ -1,0 +1,93 @@
+.vlog-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .vlog-heading {
+    font-size: 2.5rem;
+    color: #4B56D2;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .vlog-description {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    max-width: 900px;
+  }
+  
+  .vlog-subtitle {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 320px;
+    padding: 0 1rem;
+  }
+  
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-card {
+    position: absolute;
+    height: 320px;
+    width: calc(30% - 2rem);
+    max-width: 380px;
+    background-color: #4B56D2;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(75, 86, 210, 0.2);
+    transition: transform 0.5s ease-in-out;
+    left: 35%;
+  }
+  
+  /* Media query for tablets */
+  @media screen and (max-width: 768px) {
+    .vlog-heading {
+      font-size: 2rem;
+    }
+      
+    .slider-card {
+      height: 280px;
+      width: calc(45% - 2rem);
+      left: 27.5%;
+    }
+    
+    .slider-container {
+      height: 280px;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 480px) {
+    .vlog-heading {
+      font-size: 1.75rem;
+    }
+      
+    .vlog-description, .vlog-subtitle {
+      font-size: 0.9rem;
+    }
+      
+    .slider-card {
+      height: 220px;
+      width: calc(70% - 2rem);
+      left: 15%;
+    }
+    
+    .slider-container {
+      height: 220px;
+    }
+  }

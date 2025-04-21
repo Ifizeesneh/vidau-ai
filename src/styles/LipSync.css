@@ -1,0 +1,116 @@
+
+.lip-sync-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .lip-sync-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #6366f1;
+    margin-bottom: 16px;
+  }
+  
+  .lip-sync-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 32px;
+  }
+  
+  .lip-sync-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+    justify-content: space-between;
+  }
+  
+  .image-container, .script-container, .L-output-container {
+    border-radius: 16px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+  }
+  
+  .image-container {
+    background-color: #d1d1d1;
+    flex: 1;
+  }
+  
+  .script-container {
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .L-output-container {
+    background-color: #6366f1;
+    flex: 1;
+  }
+  
+  .image-label, .script-label, .L-output-label {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6366f1;
+    margin-bottom: 16px;
+  }
+  
+  .script-text {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    padding: 0 8px;
+  }
+  
+  /* Tablet Responsive */
+  @media (max-width: 992px) {
+    .lip-sync-row {
+      flex-direction: column;
+    }
+    
+    .image-container, .script-container, .L-output-container {
+      width: 100%;
+      height: 280px;
+    }
+    
+    .script-container {
+      height: auto;
+      min-height: 200px;
+    }
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 480px) {
+    .lip-sync-title {
+      font-size: 28px;
+    }
+    
+    .lip-sync-description {
+      font-size: 14px;
+    }
+    
+    .image-container, .L-output-container {
+      height: 200px;
+    }
+    
+    .script-container {
+      min-height: 180px;
+    }
+    
+    .image-label, .script-label, .L-output-label {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+    
+    .script-text {
+      font-size: 14px;
+    }
+  }
