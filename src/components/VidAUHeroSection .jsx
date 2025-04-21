@@ -1,6 +1,6 @@
 // src/components/VidAUHeroSection/VidAUHeroSection.jsx
 import React from 'react';
-import '../styles/VidAUHeroSection.css'; 
+import '../styles/VidauHeroSection.css'; 
 import heroImage from '../assets/heroSectionImage.svg'; 
 
 const VidAUHeroSection = () => {
