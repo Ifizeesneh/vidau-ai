@@ -147,8 +147,11 @@
       font-size: 2rem;
     }
     
-    .image-video-container {
-      padding: 1.5rem 0;
+  .image-video-title {
+      margin-left: 12px;
+    }
+    .image-video-description{
+      padding: 12px;
     }
     
     .image-placeholder, .video-placeholder {

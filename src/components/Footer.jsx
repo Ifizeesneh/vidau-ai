@@ -3,6 +3,11 @@ import React from 'react';
 import '../styles/Footer.css';
 import Facebook from '../assets/facebook.svg';
 import Instagram from '../assets/instagram.svg';
+import Youtube from '../assets/Link - YouTube.svg';
+import Twitter from '../assets/Link - Twitter.svg';
+import Tiktok from '../assets/Link - Tiktok.svg';
+import Linkedin from '../assets/Link - Linkedin.svg';
+import CreateIcon from '../assets/create-black-icon.svg';
 import FooterLogo from '../assets/Footer-Logo.svg';
 
 const Footer = () => {
@@ -20,10 +25,10 @@ const Footer = () => {
           <div className="social-icons">
             <a href="#" className="social-icon"><img src={Facebook} alt=''  /></a>
             <a href="#" className="social-icon"><img src={Instagram} alt=''  /></a>
-            <a href="#" className="social-icon"><img src={Facebook} alt=''  /></a>
-            <a href="#" className="social-icon"><img src={Facebook} alt=''  /></a>
-            <a href="#" className="social-icon"><img src={Facebook} alt=''  /></a>
-            <a href="#" className="social-icon"><img src={Facebook} alt=''  /></a>
+            <a href="#" className="social-icon"><img src={Youtube} alt=''  /></a>
+            <a href="#" className="social-icon"><img src={Twitter} alt=''  /></a>
+            <a href="#" className="social-icon"><img src={Tiktok} alt=''  /></a>
+            <a href="#" className="social-icon"><img src={Linkedin} alt=''  /></a>
           </div>
           <div className="language-selector">
             <button className="language-btn">English ▾</button>

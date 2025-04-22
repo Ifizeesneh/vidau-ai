@@ -5,6 +5,7 @@
     margin: 0 auto;
     padding: 2rem 0;
     width: 100%;
+    margin-top: 5rem;
   }
   
   .text-video-title {
@@ -68,6 +69,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to right, #693CFF, #3658FF);
   }
   
   .output-video-btn {
@@ -98,6 +100,16 @@
     .example-row {
       flex-direction: column;
     }
+    .text-video-container{
+      margin-top: 1.5rem;
+    }
+    .text-video-title {
+      margin-left: 10px;
+    }
+    
+    .text-video-description {
+     padding: 12px;
+    }
     
     .output-container {
       margin-top: 1rem;
@@ -115,7 +127,7 @@
     }
     
     .text-video-container {
-      padding: 1.5rem 0;
+      padding: 1rem 0;
     }
     
     .video-placeholder {

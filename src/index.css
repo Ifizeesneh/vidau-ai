@@ -10,9 +10,7 @@
   text-decoration: none;
 }
 
-:root {
 
-}
 html {
   scroll-behavior: smooth;
 }
@@ -23,7 +21,6 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to bottom, #edf6ff, #ffffff);
 }
 
 /* My General Styles    */
@@ -342,7 +339,7 @@ a:hover {
 
 /* Main container */
 .hero-container {
-  
+  background: linear-gradient(to bottom, #edf6ff, #ffffff);
   position: relative;
   overflow: hidden;
   padding: 60px 20px;
@@ -411,15 +408,16 @@ a:hover {
 }
 
 .hero-title {
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 72px;
+  font-weight: 500;
   color: #1a1a1a;
   margin-bottom: 24px;
 }
 
 .hero-description {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
+  font-weight: 400;
   color: #4a4a4a;
   margin-bottom: 16px;
   max-width: 700px;
@@ -459,7 +457,25 @@ a:hover {
 
 .tab.active {
   color: #2563eb;
-  border-bottom: 2px solid #2563eb;
+  position: relative; 
+}
+.KlingAI-content-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+.tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%; 
+  height: 2px;
+  background-color: #2563eb;
 }
 
 /* Tab content */
@@ -467,10 +483,10 @@ a:hover {
   padding: 24px;
 }
 
-.content-title {
+.KlingAI-content-title {
   font-size: 18px;
-  font-weight: 500;
-  color: #2563eb;
+  font-weight: 600;
+  color: #5B43FF;
   margin-bottom: 16px;
 }
 
@@ -484,7 +500,7 @@ a:hover {
 .model-selector {
   display: inline-flex;
   align-items: center;
-  background-color: #f3f4f6;
+  background-color: #5B43FF;
   border-radius: 6px;
   padding: 4px 12px;
   cursor: pointer;
@@ -493,19 +509,21 @@ a:hover {
 .model-icon {
   width: 16px;
   height: 16px;
-  fill: #2563eb;
-  margin-right: 4px;
+  fill: #ffffff;
+  
 }
 
 .model-selector span {
   font-size: 14px;
   margin: 0 4px;
+  font-weight: 400;
+  color: #FFFFFF;
 }
 
 .dropdown-icon {
   width: 16px;
   height: 16px;
-  fill: currentColor;
+  fill: white;
 }
 
 /* Upload section */
@@ -515,8 +533,10 @@ a:hover {
 
 .upload-label {
   font-size: 14px;
-  color: #4b5563;
+  font-weight: 600;
+  color: #00000040;
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .upload-area {
@@ -533,7 +553,7 @@ a:hover {
 .upload-icon-container {
   width: 40px;
   height: 40px;
-  background-color: #e9d5ff;
+  
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -541,15 +561,12 @@ a:hover {
   margin-bottom: 8px;
 }
 
-.upload-icon {
-  width: 24px;
-  height: 24px;
-  color: #7e22ce;
-}
+
 
 .upload-text {
-  font-size: 14px;
-  color: #7e22ce;
+  font-size: 12px;
+  color: #5B43FF;
+  font-weight: 400;
 }
 
 .upload-instruction {
@@ -570,7 +587,7 @@ a:hover {
   color: white;
   border: none;
   border-radius: 999px;
-  padding: 8px 24px;
+  padding: 8px 20px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -582,8 +599,8 @@ a:hover {
 }
 
 .button-icon {
-  width: 16px;
-  height: 16px;
+  width: 35px;
+  height: 35px;
   margin-left: 8px;
 }
 

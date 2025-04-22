@@ -11,6 +11,8 @@
     max-width: 1300px;
     overflow: hidden;
     position: relative;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
   }
   
   .vidau-hero-content {
@@ -53,8 +55,8 @@
   }
   
   .vidau-arrow-icon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
   
   .vidau-hero-image-container {
@@ -88,6 +90,8 @@
       flex-direction: column;
       padding: 40px 20px;
       text-align: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
     
     .vidau-hero-content {

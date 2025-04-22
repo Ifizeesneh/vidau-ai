@@ -116,7 +116,9 @@
   @media screen and (max-width: 992px) {
     .footer-container {
       flex-direction: column;
+      padding: 20px;
     }
+    
     
     .brand-section {
       margin-bottom: 40px;

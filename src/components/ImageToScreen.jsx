@@ -1,6 +1,7 @@
 // src/components/ImageToScreen/ImageToScreen.jsx
 import React from 'react';
 import '../styles/ImageToScreen.css';
+import CreateIcon from '../assets/create-arrow-icon.svg'; 
 
 
 const ImageToScreen = () => {
@@ -26,7 +27,7 @@ const ImageToScreen = () => {
             <div className="button-container">
               <button className="try-button">
                 Try Kling AI Now
-                <span className="arrow-icon">→</span>
+                <span className="arrow-icon"><img src={CreateIcon} alt="Icon" className="button-icon" /></span>
               </button>
             </div>
           </div>
