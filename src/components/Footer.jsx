@@ -5,7 +5,7 @@ import Facebook from '../assets/facebook.svg';
 import Instagram from '../assets/instagram.svg';
 import Youtube from '../assets/YouTube.svg';
 import Twitter from '../assets/Twitter.svg';
-import Tiktok from '../assets/Tiktok.svg';
+import Tiktok from '../assets/TikTok.svg';
 import Linkedin from '../assets/Linkedin.svg';
 import FooterLogo from '../assets/Footer-Logo.svg';
 
