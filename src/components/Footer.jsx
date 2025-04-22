@@ -3,11 +3,10 @@ import React from 'react';
 import '../styles/Footer.css';
 import Facebook from '../assets/facebook.svg';
 import Instagram from '../assets/instagram.svg';
-import Youtube from '../assets/Link - YouTube.svg';
-import Twitter from '../assets/Link - Twitter.svg';
-import Tiktok from '../assets/Link - Tiktok.svg';
-import Linkedin from '../assets/Link - Linkedin.svg';
-import CreateIcon from '../assets/create-black-icon.svg';
+import Youtube from '../assets/YouTube.svg';
+import Twitter from '../assets/Twitter.svg';
+import Tiktok from '../assets/Tiktok.svg';
+import Linkedin from '../assets/Linkedin.svg';
 import FooterLogo from '../assets/Footer-Logo.svg';
 
 const Footer = () => {
