@@ -15,19 +15,19 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-section brand-section">
           <div className="logo">
-           <img src={FooterLogo} alt="Logo" className="logo-image" />
+            <img src={FooterLogo} alt="Logo" className="logo-image" />
           </div>
           <p className="tagline">
             VidAU AI Video & Audio Creator:<br />
             Generate Winning Marketing Videos Using VidAU AI in Minutes
           </p>
           <div className="social-icons">
-            <a href="#" className="social-icon"><img src={Facebook} alt=''  /></a>
-            <a href="#" className="social-icon"><img src={Instagram} alt=''  /></a>
-            <a href="#" className="social-icon"><img src={Youtube} alt=''  /></a>
-            <a href="#" className="social-icon"><img src={Twitter} alt=''  /></a>
-            <a href="#" className="social-icon"><img src={Tiktok} alt=''  /></a>
-            <a href="#" className="social-icon"><img src={Linkedin} alt=''  /></a>
+            <a href="#" className="social-icon"><img src={Facebook} alt='' /></a>
+            <a href="#" className="social-icon"><img src={Instagram} alt='' /></a>
+            <a href="#" className="social-icon"><img src={Youtube} alt='' /></a>
+            <a href="#" className="social-icon"><img src={Twitter} alt='' /></a>
+            <a href="#" className="social-icon"><img src={Tiktok} alt='' /></a>
+            <a href="#" className="social-icon"><img src={Linkedin} alt='' /></a>
           </div>
           <div className="language-selector">
             <button className="language-btn">English ▾</button>
