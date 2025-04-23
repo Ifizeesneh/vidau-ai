@@ -33,7 +33,7 @@ const ImageToVideo = () => {
               </div>
             </div>
             
-            <div className="input-container">
+            <div className="input-containers">
               <button className="input-image-btn">
                 Input Image
               </button>

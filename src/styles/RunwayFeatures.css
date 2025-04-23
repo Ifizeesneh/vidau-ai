@@ -1,7 +1,5 @@
-
-
 .runway-container {
-  background: linear-gradient(to right, #edf6ff);
+  background: linear-gradient(to right, #dfe2fa, #E5e1fa);
   border-radius: 12px;
   padding: 2rem;
   max-width: 1000px;
@@ -53,9 +51,9 @@
   .runway-container {
     padding: 1.5rem;
     margin-top: 1rem;
-   
+
   }
-  
+
   .runway-title {
     font-size: 1.6rem;
   }
@@ -66,17 +64,17 @@
     padding: 1.25rem;
     border-radius: 8px;
   }
-  
+
   .runway-title {
     font-size: 1.4rem;
     margin-bottom: 1.25rem;
   }
-  
+
   .feature-items {
     margin-bottom: 0.75rem;
     padding-left: 1.25rem;
   }
-  
+
   .feature-items::before {
     font-size: 1rem;
   }

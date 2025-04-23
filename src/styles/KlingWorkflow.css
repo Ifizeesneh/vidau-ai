@@ -1,107 +1,120 @@
-
-
 .workflow-container {
-    background: linear-gradient(135deg, #4668F2 0%, #3249D5 100%);
-    border-radius: 24px;
-    padding: 3rem 2rem;
-    color: white;
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 5rem;
+  background: linear-gradient(135deg, #4668F2 0%, #3249D5 100%);
+  border-radius: 24px;
+  padding: 5rem 4rem;
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 5rem;
+}
+
+.workflow-title {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: -6%;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.workflow-steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.step-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.step-number {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: -6%;
+  margin-bottom: 1rem;
+  color: white;
+  padding-left: 0.5rem;
+}
+
+.step-card {
+  background-color: rgba(125,105,255 );
+  border-radius: 12px;
+  padding: 1.5rem;
+  flex: 1;
+  backdrop-filter: blur(10px);
+  height: 100%;
+}
+
+.step-title {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -2%;
+  margin-bottom: 0.75rem;
+  color: #FFFFFFD9;
+}
+
+.step-description {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -2%;
+  line-height: 28px;
+  color: #FFFFFFD9;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 900px) {
+  .workflow-steps {
+    flex-direction: column;
+  }
+  
+  .step-wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .workflow-container {
+    padding: 2.5rem 1.5rem;
+    border-radius: 20px;
+    margin-top: 2rem;
   }
   
   .workflow-title {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 3rem;
-    color: white;
-  }
-  
-  .workflow-steps {
-    display: flex;
-    justify-content: space-between;
-    gap: 1.5rem;
-  }
-  
-  .step-card {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    padding: 1.5rem;
-    flex: 1;
-    backdrop-filter: blur(10px);
+    font-size: 2rem;
+    margin-bottom: 2rem;
   }
   
   .step-number {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    color: white;
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .workflow-container {
+    padding: 2rem 1rem;
+    border-radius: 16px;
+  }
+  
+  .workflow-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .step-number {
+    font-size: 2rem;
   }
   
   .step-title {
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-    color: white;
+    font-size: 1.2rem;
   }
   
   .step-description {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
   }
-  
-  /* Media queries for responsive design */
-  @media (max-width: 900px) {
-    .workflow-steps {
-      flex-direction: column;
-    }
-    
-    .step-card {
-      max-width: 100%;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .workflow-container {
-      padding: 2.5rem 1.5rem;
-      border-radius: 20px;
-      margin-top: 2rem;
-    }
-    
-    .workflow-title {
-      font-size: 2rem;
-      margin-bottom: 2rem;
-    }
-    
-    .step-number {
-      font-size: 2.2rem;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .workflow-container {
-      padding: 2rem 1rem;
-      border-radius: 16px;
-    }
-    
-    .workflow-title {
-      font-size: 1.8rem;
-      margin-bottom: 1.5rem;
-    }
-    
-    .step-number {
-      font-size: 2rem;
-    }
-    
-    .step-title {
-      font-size: 1.2rem;
-    }
-    
-    .step-description {
-      font-size: 0.9rem;
-    }
-  }
+}
