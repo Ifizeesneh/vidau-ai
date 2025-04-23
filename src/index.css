@@ -474,7 +474,7 @@ a:hover {
   left: 50%;
   transform: translateX(-50%);
   width: 50%; 
-  height: 2px;
+  height: 1px;
   background-color: #2563eb;
 }
 
@@ -583,15 +583,21 @@ a:hover {
 }
 
 .create-button {
-  background-color: #2563eb;
+  background-color: #3459FF;
   color: white;
   border: none;
-  border-radius: 999px;
-  padding: 8px 20px;
-  display: flex;
+  border-radius: 44px;
+  padding: 8px 8px 8px 24px;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 600;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
   transition: background-color 0.3s;
+  width: fit-content; /* This makes it "Hug" content width */
+  height: 56px;
+  gap: 8px;
 }
 
 .create-button:hover {
@@ -601,7 +607,7 @@ a:hover {
 .button-icon {
   width: 35px;
   height: 35px;
-  margin-left: 8px;
+  /* margin-left is removed since we're using gap now */
 }
 
 /* Media Queries for Responsiveness */
