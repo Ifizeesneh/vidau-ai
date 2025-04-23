@@ -14,8 +14,6 @@
     width: 100%;
     max-width: 1200px;
     min-height: 350px;
-    font-family: 'Inter', 'Segoe UI', sans-serif;
-    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); */
     
     overflow: hidden;
   }
@@ -31,9 +29,9 @@
   }
   
   .panel-title {
-    color: #6251e7;
-    font-size: 2rem;
-    font-weight: 600;
+    color: #5B43FF;
+    font-size: 34px;
+    font-weight: 500;
   }
   
   .right-panel {
@@ -42,30 +40,43 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 20px;
    
   }
   
   .main-title {
-    font-size: 2.5rem;
-    color: #6251e7;
+    font-size: 34px;
+    color: #5B43FF;
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: 500;
   }
   
   .content-text {
     margin-bottom: 30px;
-    font-size: 1.1rem;
-    line-height: 1.6;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -2%;
+    max-width: 524.5px;
     color: #333;
+  }
+
+  .content-text p {
+    margin-bottom: 0.5rem;
   }
   
   .highlight-text {
     color: #6251e7;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -2%;
+    line-height: 28px;
   }
   
   .button-container {
     margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
   }
   
   .try-button {
@@ -73,9 +84,9 @@
     color: white;
     border: none;
     border-radius: 50px;
-    padding: 12px 25px;
-    font-size: 1rem;
-    font-weight: 500;
+    padding: 8px 8px 8px 24px;
+    font-size: 14px;
+    font-weight: 600;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -108,6 +119,15 @@
     
     .main-title {
       font-size: 2.2rem;
+    }
+    .right-panel {
+      flex: 3;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 0px;
+     
     }
   }
   

@@ -11,10 +11,11 @@
   }
   
   .kling-title {
-    color: #6858F2;
-    font-size: 2.5rem;
-    font-weight: 700;
+    color: #5B43FF;
+    font-size: 46px;
+    font-weight: 500;
     margin-bottom: 2rem;
+    letter-spacing: -6%;
     text-align: center;
   }
   
@@ -30,14 +31,19 @@
     background-color: #5F34EA29;
     color: #444444;
     padding: 0.75rem 1.5rem;
-    border-radius: 2rem;
-    font-size: 1rem;
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
+    line-height: 28px;
     min-width: 140px;
     text-align: center;
+    border: 1px solid #5F34EA29;
     cursor: pointer;
+    letter-spacing: -3%;
+    line-height: 28px;
     transition: all 0.2s ease;
   }
   
