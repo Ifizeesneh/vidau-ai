@@ -11,7 +11,7 @@ import KlingWorkflow from "./components/KlingWorkflow "
 import LipSync from "./components/LipSync"
 import MotionBrush from "./components/MotionBrush"
 import Navbar from "./components/Navbar"
-import RedditCarousel from "./components/RedditCarousel "
+import RedditRunwaySlider from "./components/RedditCarousel "
 import RunwayFeatures from "./components/RunwayFeatures "
 import RunwayFeed from "./components/RunwayFeed"
 import TextToVideo from "./components/TextToVideo"
@@ -43,7 +43,7 @@ function App() {
     <FrameInterpolation />
     <VlogSection />
     <YoutubeVids />
-    <RedditCarousel />
+    <RedditRunwaySlider />
     <RunwayFeed />
     <VideoGenerators />
     <Faq />

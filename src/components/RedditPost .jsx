@@ -15,11 +15,14 @@ const RedditPost = ({ post }) => {
     hasVideo
   } = post;
 
+  // Create user initial for the avatar
+  const userInitial = username ? username.charAt(0).toUpperCase() : 'U';
+
   return (
     <div className="runway-reddit-post">
       <div className="runway-post-header">
         <div className="runway-user-icon">
-          {username === 'runwayml' ? 'R' : username.charAt(0)}
+          {userInitial}
         </div>
         <div className="runway-post-info">
           <div className="runway-username">{username}</div>
@@ -61,26 +64,24 @@ const RedditPost = ({ post }) => {
         <div className="runway-post-stats">
           <div className="runway-upvote">
             <span className="runway-upvote-icon">▲</span>
-            <span className="runway-upvote-count">{upvotes} upvotes</span>
+            <span>{upvotes} upvotes</span>
           </div>
           
-          {comments && (
-            <div className="runway-comment">
-              <span className="runway-comment-icon">💬</span>
-              <span className="runway-comment-text">Comment</span>
-            </div>
-          )}
+          <div className="runway-comment">
+            <span>💬</span>
+            <span>Comment</span>
+          </div>
           
           {replies && (
             <div className="runway-replies">
-              <span className="runway-replies-icon">↩️</span>
-              <span className="runway-replies-count">{replies} replies</span>
+              <span>↩️</span>
+              <span>{replies} replies</span>
             </div>
           )}
           
           <div className="runway-copy-link">
-            <span className="runway-link-icon">🔗</span>
-            <span className="runway-link-text">Copy link</span>
+            <span>🔗</span>
+            <span>Copy link</span>
           </div>
         </div>
         
